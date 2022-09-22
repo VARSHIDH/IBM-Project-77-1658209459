@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Shakthi Sri S">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="theme-color" content="#ff0000">
+
+    <title> Shakthi Sri S </title>
+    
+    <link rel="stylesheet" href="w3.css">
+       
+    <style>
+        body,h1,h2,h3,h4,h5,h6 { font-family: "Lato", sans-serif }
+        .w3-bar,h1,button { font-family: "Montserrat", sans-serif }
+        .fa-anchor,.fa-coffee { font-size: 200px }
+        /* Smooth */
+        html {scroll-behavior: smooth;}
+        /* stop to select */
+        body{-webkit-user-select:none;-moz-user-select:-moz-none;
+        -ms-user-select:none;user-select:none}
+
+        /* scollbar */
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #ff8981; }
+        ::-webkit-scrollbar-thumb { background: rgb(255, 255, 255); border:1px solid rgb(59, 59, 59) }
+        /* ::-webkit-scrollbar-thumb:hover { background: rgb(104, 104, 104); } */
+    </style>
+
+    
+</head>
+
+<body oncontextmenu="return false">
+
+   
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+<img src="Shakthi.jpg" width="70" height="70"></img>
+        <h1 class="w3-margin w3-jumbo">
+            Shakthi Sri S 
+        </h1>
+        <h3> Computer Science Engineer </h3>
+<a href="#contact" class="get-started w3-button w3-black w3-padding-large w3-large w3-margin-top">
+     
+            Contact
+        </a>
+           </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1> About Me </h1>
+                <h4 class="w3-padding-32"> Looking for a challenging role in a reputable organization to utilize my technical and management skills for the growth of the organization as well as to enhance my knowledge about new  and emerging trends in the IT sector </h4>
+
+                            </div>          
+        </div>
+    </div>
+
+            <div class="w3-row w3-white w3-padding-large" id="contact">
+        <div class="w3-col s12 m12 l8" style="padding-top:20px;">
+            <form class="w3-container w3-card-4 w3-white w3-margin" style="border-radius: 8px; border:1px solid black;">
+                <h2 class="w3-center w3-text-black"> 
+                    Professional Skills 
+                </h2>
+                <div class="w3-row-padding">
+                    <label for="skill">Python:</label>
+<progress id="skill" value="80" max="100"> 80% </progress><br><br>
+<label for="skill">C:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<progress id="skill" value="50" max="100"> 50% </progress><br><br>
+<label for="skill">Java:</label>
+<progress id="skill" value="70" max="100"> 70% </progress><br><br>
+<label for="skill">HTML:</label>
+<progress id="skill" value="80" max="100"> 80% </progress><br><br>
+<label for="skill">CSS:</label>
+<progress id="skill" value="80" max="100"> 80% </progress><br><br>
+
+                    
+                                       
+                </div>
+                
+            </form>        
+        </div>
+        
+        <div class="w3-col s12 m12 l4" style="padding-top: 20px">
+            <form class="w3-container w3-margin w3-card-4 w3-light-grey" style="border-radius: 8px; border:1px solid black; max-width: 415px">
+                <h2 class="w3-center w3-text-black"> 
+                    Contact Details
+                </h2>
+                <h4>Age:&nbsp;&nbsp;20</h4>
+<h4>Email:&nbsp;&nbspshakthisri.s.2019.cse@ritchennai.edu.in </h4><h4>Phone:&nbsp;&nbsp+91 9940538254</h4><h4>Address:&nbsp;&nbspChennai,Tamil Nadu, India</h4>
+                
+             <button class="w3-button w3-black w3-hover-red" type="button">  Submit </button><br><br>   
+            </form>
+        </div> 
+    </div>
+
+</body>
+
+</html>
