@@ -1,1 +1,32 @@
-
+<html>
+<body bgcolor="#99ccff"><br /><br />
+<form name="myform" method="post" action="reg.jsp">
+<h1> User Registration Form</h1>
+Name :<input type="text" name="name" /><br><br> 
+Email:<input type="text" name="mail" /><br><br>
+Mobile:<input type="text" name="phno" /><br><br> 
+  <label for="city">City:</label>
+  <select id="city" name="city">
+    <option value="Chennai">Chennai</option>
+    <option value="Bangalore">Bangalore</option>
+    <option value="Pune">Pune</option>
+    <option value="Coimbatore">Coimbatore </option>
+  </select><br><br>
+<label for="state">State:</label>
+  <select id="state" name="state">
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+    <option value="Kerala">Kerala</option>
+    <option value="Karnataka">Karnataka</option>
+    <option value="Tamil Nadu">Tamil Nadu </option>
+  </select><br><br>
+<label for="country">Country:</label>
+  <select id="country" name="country">
+    <option value="UK">UK</option>
+    <option value="USA">USA</option>
+    <option value="India">India</option>
+    <option value="China">China </option>
+  </select><br><br>
+<input type="submit" value="Ok"> &nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Clear" />
+</form>
+</body>
+</html>
